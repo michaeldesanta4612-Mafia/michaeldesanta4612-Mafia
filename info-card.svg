@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="500">
+
+<rect width="840" height="490" x="5" y="5"
+rx="12" fill="#090d14" stroke="#8b5cf6" stroke-width="2"/>
+
+<style>
+.t,.k,.v{
+font-family:"Courier New",monospace
+}
+
+.t{
+font-size:30px;
+font-weight:bold;
+fill:#bc8cff
+}
+
+.k{
+font-size:21px;
+font-weight:bold
+}
+
+.v{
+font-size:18px;
+fill:#e6edf3
+}
+
+.i{
+opacity:0;
+animation:a .5s ease-out forwards
+}
+
+@keyframes a{
+from{
+opacity:0;
+transform:translateX(-15px)
+}
+to{
+opacity:1;
+transform:translateX(0)
+}
+}
+</style>
+
+<text x="35" y="50" class="t">
+&gt; adix4612
+</text>
+
+<circle cx="790" cy="40" r="6" fill="#bc8cff"/>
+<circle cx="812" cy="40" r="6" fill="#bc8cff"/>
+<circle cx="834" cy="40" r="6" fill="#bc8cff"/>
+
+<line x1="35" y1="75" x2="815" y2="75"
+stroke="#30363d"/>
+
+<g class="i">
+<text x="40" y="115" class="k" fill="#58a6ff">Name</text>
+<text x="190" y="115" class="v">:</text>
+<text x="220" y="115" class="v">Aditya (adix4612)</text>
+</g>
+
+<g class="i" style="animation-delay:.15s">
+<text x="40" y="158" class="k" fill="#39d353">Role</text>
+<text x="190" y="158" class="v">:</text>
+<text x="220" y="158" class="v">Data Analyst &amp; Developer</text>
+</g>
+
+<g class="i" style="animation-delay:.30s">
+<text x="40" y="201" class="k" fill="#f2cc60">Location</text>
+<text x="190" y="201" class="v">:</text>
+<text x="220" y="201" class="v">India</text>
+</g>
+
+<g class="i" style="animation-delay:.45s">
+<text x="40" y="244" class="k" fill="#ff7b72">Focus</text>
+<text x="190" y="244" class="v">:</text>
+<text x="220" y="244" class="v">Data Analytics • Web Apps</text>
+</g>
+
+<g class="i" style="animation-delay:.60s">
+<text x="40" y="287" class="k" fill="#bc8cff">Stack</text>
+<text x="190" y="287" class="v">:</text>
+<text x="220" y="287" class="v">Python • Streamlit • Pandas • SQL</text>
+</g>
+
+<g class="i" style="animation-delay:.75s">
+<text x="40" y="330" class="k" fill="#79c0ff">Tools</text>
+<text x="190" y="330" class="v">:</text>
+<text x="220" y="330" class="v">VS Code • Git • GitHub • Linux</text>
+</g>
+
+<g class="i" style="animation-delay:.90s">
+<text x="40" y="373" class="k" fill="#ffa657">Currently</text>
+<text x="190" y="373" class="v">:</text>
+<text x="220" y="373" class="v">Building analytics dashboards</text>
+</g>
+
+<g class="i" style="animation-delay:1.05s">
+<text x="40" y="416" class="k" fill="#3fb950">Status</text>
+<text x="190" y="416" class="v">:</text>
+<text x="220" y="416" class="v">Always learning. Always building.</text>
+</g>
+
+<line x1="35" y1="460" x2="815" y2="460"
+stroke="#30363d"/>
+
+<text x="40" y="485"
+font-family="Courier New"
+font-size="13"
+fill="#8b949e">
+$ keep_building --always
+</text>
+
+</svg>
