@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+width="860" height="185">
+
+<rect width="860" height="185"
+rx="10" fill="#090d14"/>
+
+<style>
+.t{
+font-family:"Courier New",monospace
+}
+
+.b{
+opacity:0;
+animation:a .5s ease-out forwards
+}
+
+@keyframes a{
+from{
+opacity:0;
+transform:translateY(-8px)
+}
+to{
+opacity:1;
+transform:translateY(0)
+}
+}
+</style>
+
+<text x="60" y="55"
+class="t"
+font-size="18"
+fill="#39d353"
+class="b">
+
+adix4612@github ~ $ ./contributions.sh
+
+</text>
+
+<text x="60" y="95"
+class="t"
+font-size="14"
+fill="#8b949e">
+
+Loading contribution graph...
+
+</text>
+
+<g class="b">
+
+<rect x="60" y="120"
+width="13" height="13"
+rx="3" fill="#161b22"/>
+
+<rect x="80" y="120"
+width="13" height="13"
+rx="3" fill="#0e4429"/>
+
+<rect x="100" y="120"
+width="13" height="13"
+rx="3" fill="#006d32"/>
+
+<rect x="120" y="120"
+width="13" height="13"
+rx="3" fill="#26a641"/>
+
+<rect x="140" y="120"
+width="13" height="13"
+rx="3" fill="#39d353"/>
+
+<rect x="160" y="120"
+width="13" height="13"
+rx="3" fill="#69f0a0"/>
+
+</g>
+
+</svg>
